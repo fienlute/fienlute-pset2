@@ -16,6 +16,9 @@ class SecondViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         loadStory()
+        dataInputField.placeholder = story.getNextPlaceholder()
+        // user input button
+        
     }
     
     // load file of story
@@ -49,15 +52,16 @@ class SecondViewController: UIViewController {
             }
             else {
                 story.fillInPlaceholder(word: dataInputField.text!)
+                dataInputField.text = ""
+                dataInputField.placeholder = story.getNextPlaceholder()
                 wordsLeft.text = String(story.getPlaceholderRemainingCount()) + "words left"
             }
             // set field = 0
         }
-       print(story.toString())
+       
+    print(story.toString())
 
     }
-    
-    
 
     // print hoeveel placeholders left
     // vul ingevulde placeholders in in text
@@ -65,7 +69,6 @@ class SecondViewController: UIViewController {
     // print text met placeholder
     // maak text weer leeg
     
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -73,13 +76,10 @@ class SecondViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        let ThirdViewController = segue.destination as! ThirdViewController
-        
-        ThirdViewController.data = dataInputField.text!.characters.split{ $0 == " " || $0 == ","}.map(String.init)
+        if let thirdVC = segue.destination as? ThirdViewController {
+            thirdVC.storyData = story.toString() }
     }
     
-    
-
     /*
     // MARK: - Navigation
 

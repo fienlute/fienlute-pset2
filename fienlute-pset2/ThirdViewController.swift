@@ -9,17 +9,26 @@
 import UIKit
 
 class ThirdViewController: UIViewController {
-
-    var data: Array<String>?
+    var story: Story!
+    
+    @IBOutlet weak var buttonHome: UIButton!
+    
+    @IBAction func clearStory(_ sender: Any) {
+        if buttonHome.isSelected == true {
+            story.clear()
+        }
+        
+    }
+    var storyData: String?
+    
+    @IBOutlet weak var textFieldStory: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
-        if (data != nil) {
-            print(data)
-        }
+        textFieldStory.text = storyData
+        
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
