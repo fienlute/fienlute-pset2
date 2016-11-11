@@ -16,9 +16,8 @@ class SecondViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         loadStory()
+        // make sure the first kind of placeholder is vieweble in the textfield
         dataInputField.placeholder = story.getNextPlaceholder()
-        // user input button
-        
     }
     
     // load file of story
@@ -35,10 +34,7 @@ class SecondViewController: UIViewController {
         }
     }
     
-    // load placeholders into story
-    
-    // print the amount of placeholders that the user has to fill in
-   @IBOutlet weak var wordsLeft: UILabel!
+    @IBOutlet weak var wordsLeft: UILabel!
     
     @IBOutlet weak var dataInputField: UITextField!
     
@@ -56,24 +52,18 @@ class SecondViewController: UIViewController {
                 dataInputField.placeholder = story.getNextPlaceholder()
                 wordsLeft.text = String(story.getPlaceholderRemainingCount()) + "words left"
             }
-            // set field = 0
         }
        
     print(story.toString())
 
     }
-
-    // print hoeveel placeholders left
-    // vul ingevulde placeholders in in text
-    // geef placeholder soort weer in balk
-    // print text met placeholder
-    // maak text weer leeg
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    // segue to put data of second vc into third vc
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if let thirdVC = segue.destination as? ThirdViewController {

@@ -12,6 +12,7 @@
 		EE0514951DD5D85A00217052 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE0514901DD5D85A00217052 /* madlib2_university.txt */; };
 		EE0514961DD5D85A00217052 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE0514911DD5D85A00217052 /* madlib3_clothes.txt */; };
 		EE0514971DD5D85A00217052 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE0514921DD5D85A00217052 /* madlib4_dance.txt */; };
+		EE0514991DD633E600217052 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EE0514981DD633E600217052 /* README.md */; };
 		EEB66BBF1DD1E6E000A5084D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB66BBE1DD1E6E000A5084D /* AppDelegate.swift */; };
 		EEB66BC11DD1E6E000A5084D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB66BC01DD1E6E000A5084D /* ViewController.swift */; };
 		EEB66BC41DD1E6E000A5084D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB66BC21DD1E6E000A5084D /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		EE0514901DD5D85A00217052 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib2_university.txt; sourceTree = "<group>"; };
 		EE0514911DD5D85A00217052 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib3_clothes.txt; sourceTree = "<group>"; };
 		EE0514921DD5D85A00217052 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib4_dance.txt; sourceTree = "<group>"; };
+		EE0514981DD633E600217052 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		EEB66BBB1DD1E6E000A5084D /* fienlute-pset2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fienlute-pset2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB66BBE1DD1E6E000A5084D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEB66BC01DD1E6E000A5084D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				EEB66BD01DD1E8B500A5084D /* Story.swift */,
 				EEB66BBE1DD1E6E000A5084D /* AppDelegate.swift */,
 				EEB66BC21DD1E6E000A5084D /* Main.storyboard */,
+				EE0514981DD633E600217052 /* README.md */,
 				EEB66BC01DD1E6E000A5084D /* ViewController.swift */,
 				EEB66BD21DD1EB1100A5084D /* SecondViewController.swift */,
 				EEB66BD41DD1F12000A5084D /* ThirdViewController.swift */,
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0514991DD633E600217052 /* README.md in Sources */,
 				EEB66BD31DD1EB1100A5084D /* SecondViewController.swift in Sources */,
 				EEB66BC11DD1E6E000A5084D /* ViewController.swift in Sources */,
 				EEB66BD51DD1F12000A5084D /* ThirdViewController.swift in Sources */,

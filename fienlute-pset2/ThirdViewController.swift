@@ -8,6 +8,7 @@
 
 import UIKit
 
+// get user input from second vc 
 class ThirdViewController: UIViewController {
     var story: Story!
     
