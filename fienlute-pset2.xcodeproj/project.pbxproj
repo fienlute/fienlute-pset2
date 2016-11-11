@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0514931DD5D85A00217052 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE05148E1DD5D85A00217052 /* madlib0_simple.txt */; };
+		EE0514941DD5D85A00217052 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE05148F1DD5D85A00217052 /* madlib1_tarzan.txt */; };
+		EE0514951DD5D85A00217052 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE0514901DD5D85A00217052 /* madlib2_university.txt */; };
+		EE0514961DD5D85A00217052 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE0514911DD5D85A00217052 /* madlib3_clothes.txt */; };
+		EE0514971DD5D85A00217052 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE0514921DD5D85A00217052 /* madlib4_dance.txt */; };
+		EEB66BBF1DD1E6E000A5084D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB66BBE1DD1E6E000A5084D /* AppDelegate.swift */; };
+		EEB66BC11DD1E6E000A5084D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB66BC01DD1E6E000A5084D /* ViewController.swift */; };
+		EEB66BC41DD1E6E000A5084D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB66BC21DD1E6E000A5084D /* Main.storyboard */; };
+		EEB66BC61DD1E6E000A5084D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB66BC51DD1E6E000A5084D /* Assets.xcassets */; };
+		EEB66BC91DD1E6E000A5084D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB66BC71DD1E6E000A5084D /* LaunchScreen.storyboard */; };
+		EEB66BD11DD1E8B500A5084D /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB66BD01DD1E8B500A5084D /* Story.swift */; };
+		EEB66BD31DD1EB1100A5084D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB66BD21DD1EB1100A5084D /* SecondViewController.swift */; };
+		EEB66BD51DD1F12000A5084D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB66BD41DD1F12000A5084D /* ThirdViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE05148E1DD5D85A00217052 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib0_simple.txt; sourceTree = "<group>"; };
+		EE05148F1DD5D85A00217052 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib1_tarzan.txt; sourceTree = "<group>"; };
+		EE0514901DD5D85A00217052 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib2_university.txt; sourceTree = "<group>"; };
+		EE0514911DD5D85A00217052 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib3_clothes.txt; sourceTree = "<group>"; };
+		EE0514921DD5D85A00217052 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib4_dance.txt; sourceTree = "<group>"; };
+		EEB66BBB1DD1E6E000A5084D /* fienlute-pset2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fienlute-pset2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB66BBE1DD1E6E000A5084D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEB66BC01DD1E6E000A5084D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEB66BC31DD1E6E000A5084D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB66BC51DD1E6E000A5084D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB66BC81DD1E6E000A5084D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEB66BCA1DD1E6E000A5084D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB66BD01DD1E8B500A5084D /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		EEB66BD21DD1EB1100A5084D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EEB66BD41DD1F12000A5084D /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB66BB81DD1E6E000A5084D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB66BB21DD1E6DF00A5084D = {
+			isa = PBXGroup;
+			children = (
+				EEB66BBD1DD1E6E000A5084D /* fienlute-pset2 */,
+				EEB66BBC1DD1E6E000A5084D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB66BBC1DD1E6E000A5084D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB66BBB1DD1E6E000A5084D /* fienlute-pset2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB66BBD1DD1E6E000A5084D /* fienlute-pset2 */ = {
+			isa = PBXGroup;
+			children = (
+				EEB66BD01DD1E8B500A5084D /* Story.swift */,
+				EEB66BBE1DD1E6E000A5084D /* AppDelegate.swift */,
+				EEB66BC21DD1E6E000A5084D /* Main.storyboard */,
+				EEB66BC01DD1E6E000A5084D /* ViewController.swift */,
+				EEB66BD21DD1EB1100A5084D /* SecondViewController.swift */,
+				EEB66BD41DD1F12000A5084D /* ThirdViewController.swift */,
+				EEB66BC51DD1E6E000A5084D /* Assets.xcassets */,
+				EEB66BC71DD1E6E000A5084D /* LaunchScreen.storyboard */,
+				EEB66BCA1DD1E6E000A5084D /* Info.plist */,
+				EE05148E1DD5D85A00217052 /* madlib0_simple.txt */,
+				EE05148F1DD5D85A00217052 /* madlib1_tarzan.txt */,
+				EE0514901DD5D85A00217052 /* madlib2_university.txt */,
+				EE0514911DD5D85A00217052 /* madlib3_clothes.txt */,
+				EE0514921DD5D85A00217052 /* madlib4_dance.txt */,
+			);
+			path = "fienlute-pset2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB66BBA1DD1E6E000A5084D /* fienlute-pset2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB66BCD1DD1E6E000A5084D /* Build configuration list for PBXNativeTarget "fienlute-pset2" */;
+			buildPhases = (
+				EEB66BB71DD1E6E000A5084D /* Sources */,
+				EEB66BB81DD1E6E000A5084D /* Frameworks */,
+				EEB66BB91DD1E6E000A5084D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fienlute-pset2";
+			productName = "fienlute-pset2";
+			productReference = EEB66BBB1DD1E6E000A5084D /* fienlute-pset2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB66BB31DD1E6DF00A5084D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Fien Lute";
+				TargetAttributes = {
+					EEB66BBA1DD1E6E000A5084D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEB66BB61DD1E6E000A5084D /* Build configuration list for PBXProject "fienlute-pset2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB66BB21DD1E6DF00A5084D;
+			productRefGroup = EEB66BBC1DD1E6E000A5084D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB66BBA1DD1E6E000A5084D /* fienlute-pset2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB66BB91DD1E6E000A5084D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB66BC91DD1E6E000A5084D /* LaunchScreen.storyboard in Resources */,
+				EE0514961DD5D85A00217052 /* madlib3_clothes.txt in Resources */,
+				EE0514941DD5D85A00217052 /* madlib1_tarzan.txt in Resources */,
+				EEB66BC61DD1E6E000A5084D /* Assets.xcassets in Resources */,
+				EE0514931DD5D85A00217052 /* madlib0_simple.txt in Resources */,
+				EE0514951DD5D85A00217052 /* madlib2_university.txt in Resources */,
+				EE0514971DD5D85A00217052 /* madlib4_dance.txt in Resources */,
+				EEB66BC41DD1E6E000A5084D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB66BB71DD1E6E000A5084D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB66BD31DD1EB1100A5084D /* SecondViewController.swift in Sources */,
+				EEB66BC11DD1E6E000A5084D /* ViewController.swift in Sources */,
+				EEB66BD51DD1F12000A5084D /* ThirdViewController.swift in Sources */,
+				EEB66BBF1DD1E6E000A5084D /* AppDelegate.swift in Sources */,
+				EEB66BD11DD1E8B500A5084D /* Story.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEB66BC21DD1E6E000A5084D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB66BC31DD1E6E000A5084D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB66BC71DD1E6E000A5084D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB66BC81DD1E6E000A5084D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB66BCB1DD1E6E000A5084D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB66BCC1DD1E6E000A5084D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB66BCE1DD1E6E000A5084D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fienlute-pset2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.fienlute-pset2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EEB66BCF1DD1E6E000A5084D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fienlute-pset2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.fienlute-pset2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB66BB61DD1E6E000A5084D /* Build configuration list for PBXProject "fienlute-pset2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB66BCB1DD1E6E000A5084D /* Debug */,
+				EEB66BCC1DD1E6E000A5084D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB66BCD1DD1E6E000A5084D /* Build configuration list for PBXNativeTarget "fienlute-pset2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB66BCE1DD1E6E000A5084D /* Debug */,
+				EEB66BCF1DD1E6E000A5084D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB66BB31DD1E6DF00A5084D /* Project object */;
+}
