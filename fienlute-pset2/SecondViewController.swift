@@ -50,7 +50,7 @@ class SecondViewController: UIViewController {
                 story.fillInPlaceholder(word: dataInputField.text!)
                 dataInputField.text = ""
                 dataInputField.placeholder = story.getNextPlaceholder()
-                wordsLeft.text = String(story.getPlaceholderRemainingCount()) + "words left"
+                wordsLeft.text = String(story.getPlaceholderRemainingCount()) + " words left"
             }
         }
        
@@ -79,5 +79,4 @@ class SecondViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
