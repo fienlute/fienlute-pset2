@@ -39,7 +39,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var dataInputField: UITextField!
     
     @IBAction func inputButton(_ sender: Any) {
-        print(dataInputField.text)
+        print(dataInputField.text!)
         
         // if a placeholder is filled in, put in story and return remaining amount of placeholders
         if (story.isFilledIn() == false) {
