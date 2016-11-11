@@ -36,16 +36,14 @@ class SecondViewController: UIViewController {
     
     // print the amount of placeholders that the user has to fill in
    @IBOutlet weak var wordsLeft: UILabel!
-   // (print story.getPlaceholderRemainingCount() + 'words left')
     
     @IBOutlet weak var dataInputField: UITextField!
-    
     
     @IBAction func inputButton(_ sender: Any) {
         print(dataInputField.text)
         
         // if a placeholder is filled in, put in story and return remaining amount of placeholders
-        while (story.getPlaceholderRemainingCount() != 0) {
+        if (story.isFilledIn() == false) {
             if dataInputField.text == "" {
                 return
             }
@@ -53,14 +51,14 @@ class SecondViewController: UIViewController {
                 story.fillInPlaceholder(word: dataInputField.text!)
                 wordsLeft.text = String(story.getPlaceholderRemainingCount()) + "words left"
             }
+            // set field = 0
         }
-        
-        
+       print(story.toString())
+
     }
     
-
-
     
+
     // print hoeveel placeholders left
     // vul ingevulde placeholders in in text
     // geef placeholder soort weer in balk
